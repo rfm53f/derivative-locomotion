@@ -13,9 +13,9 @@ The driver settings need to be adjusted to the play area dimensions, and the con
 1. Copy the **derivativeloco** folder from the drivers folder to the SteamVR drivers folder: **C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers**
 2. Launch SteamVR. There should now be a new controller device shaped like a hexagon.
 3. Go to the center of the play area with the headset on and switch to the desktop view. In the SteamVR window, open the settings menu and go to Developer→Web Console. This will show the offset of the center of the room. There should be messages like this, updating once per second:
-**
-Tue Jul 25 2023 20:43:42.936 - derivativeloco: HMD: x=1.224542, z=-1.545881, a=-0.112393   JOY: x=-1.000000, y=1.000000
-**
+
+**Tue Jul 25 2023 20:43:42.936 - derivativeloco: HMD: x=1.224542, z=-1.545881, a=-0.112393   JOY: x=-1.000000, y=1.000000**
+
 5. Open the driver’s settings file in a text editor: **C:\Users\rmosh\Documents\GitHub\derivative-locomotion\drivers\derivativeloco\resources\settings\default.vrsettings**
 Set the values for **mycontroller_offset_x** and **mycontroller_offset_z** with the values from the developer console for HMD x and z.
 6. Set **mycontroller_offset_radius** to a distance in meters up to half the width of the play area. Smaller values mean it will take fewer steps to get to full speed. A value of about 0.2 could be used for standing or seated mode, where the user can lean in any direction to control the virtual movement.

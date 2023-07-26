@@ -1,5 +1,5 @@
 # Derivative Locomotion
-Position-based, hands-free VR locomotion system using a virtual controller driver for OpenVR
+Experimental position-based, hands-free VR locomotion system using a virtual controller driver for OpenVR
 
 Since it only requires positioning data from the headset, this could be especially useful for hand-tracking applications.
 The diagram below shows three examples of the resulting virtual movement when the user is standing still at those points in the room.
@@ -26,4 +26,7 @@ The driver uses the **TrackedControllerRole_Treadmill** role so that it can work
 1. Launch a VR game and open the controller bindings UI.
 2. Switch to the controller called **Derivative Locomotion Virtual Controller**.
 3. Bind the joystick input to the locomotion axes for that particular game. If unsure, check the existing binding for the left joystick on the regular controller and bind the virtual controller to the same thing.
-4. Go to the **Extra Settings** tab and check the box for ****.
+4. Go to the **Extra Settings** tab and check the box for **Return bindings with left hand**. I’m not sure why this is necessary, but I couldn’t get it to work at all without that setting.
+
+## In-Game Settings
+Make sure the locomotion settings for the game are set to smooth locomotion. Some games have an option to make the joystick movement relative to either the headset or one of the controllers. It must be set relative to the headset since the driver compensates for headset rotation to set the virtual joystick position.

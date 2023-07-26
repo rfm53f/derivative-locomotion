@@ -1,0 +1,18 @@
+{
+	"jsonid": "input_profile",
+	"controller_type": "mycontroller",
+	"input_bindingui_mode": "single_device",
+	"input_bindingui_left": {
+		"image": "{derivativeloco}/icons/sample_controller.svg"
+	},
+	"input_bindingui_right": {
+		"image": "{derivativeloco}/icons/sample_controller.svg"
+	},
+	"input_source": {
+		"/input/joystick": {
+			"binding_image_point": [ 80, 60 ],
+			"type": "joystick"
+		}
+	},
+	"default_bindings": []
+}

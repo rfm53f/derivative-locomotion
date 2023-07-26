@@ -1,0 +1,11 @@
+{
+   "driver_derivativeloco" : {
+      "enable" : true,
+      "mycontroller_model_number" : "DerivativeLocoModelNumber 1",
+      "mycontroller_serial_number": "DerivativeLocoABC123",
+      "mycontroller_offset_x": 0.00,
+      "mycontroller_offset_z": 0.00,
+      "mycontroller_radius": 1.5,
+      "mycontroller_hmd_pivot_offset": 0.1
+   }
+}

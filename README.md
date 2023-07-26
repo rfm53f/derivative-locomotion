@@ -16,8 +16,7 @@ The driver settings need to be adjusted to the play area dimensions, and the con
 
 **Tue Jul 25 2023 20:43:42.936 - derivativeloco: HMD: x=1.224542, z=-1.545881, a=-0.112393   JOY: x=-1.000000, y=1.000000**
 
-5. Open the driver’s settings file in a text editor: **C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\derivativeloco\resources\settings\default.vrsettings**
-Set the values for **mycontroller_offset_x** and **mycontroller_offset_z** with the values from the developer console for HMD x and z.
+5. Open the driver’s settings file in a text editor (**C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\derivativeloco\resources\settings\default.vrsettings**) and set the values for **mycontroller_offset_x** and **mycontroller_offset_z** with the values from the developer console for HMD x and z.
 6. Set **mycontroller_offset_radius** to a distance in meters up to half the width of the play area. Smaller values mean it will take fewer steps to get to full speed. A value of about 0.2 could be used for standing or seated mode, where the user can lean in any direction to control the virtual movement.
 
 ## Controller Bindings

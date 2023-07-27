@@ -23,7 +23,7 @@ The driver settings need to be adjusted to the play area dimensions, and the con
 ## Controller Bindings
 The driver uses the **TrackedControllerRole_Treadmill** role so that it can work alongside the existing thumbstick input. It has no controller bindings by default, so it needs to be configured for each game.
 
-1. Launch a VR game and open the controller bindings UI.
+1. Launch a VR game and open the SteamVR controller bindings UI.
 2. Switch to the controller called **Derivative Locomotion Virtual Controller**.
 3. Bind the joystick input to the locomotion axes for that particular game. If unsure, check the existing binding for the left joystick on the regular controller and bind the virtual controller to the same thing.
 4. Go to the **Extra Settings** tab and check the box for **Return bindings with left hand**. I’m not sure why this is necessary, but I couldn’t get it to work at all without that setting.
